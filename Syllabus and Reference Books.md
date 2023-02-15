@@ -48,13 +48,3 @@ Introduction to Gaining Access – Server Side – Client Side – Post – Expl
 Trojan, Viruses and Backdoor Applications - Detection Mechanism - Unix Permission and Root Access – Buffer overflow – Memory Architecture – Examples – Escalation - Linux – Window – Preventing Mechanism – DDOS – Detection and Prevention – Tools. 
 
 `Reference: Cisco - Penetration Testing and Network Defense (Chapter-12,13,14,15)`
-
-## Lab Activities (5 * 10 = )
-1. Setting up the Ethical Hacking Virtual LAB
-	- Download and Install VirtualBox and Extension Pack
-	- Configure VirtualBox for NAT and Host Only Networking
-	- Understanding VirtualBox RAM, vCPU, Storage, and Video Memory
-	- Install Kali Linux 
-	- Install Win XP
-	- Install Windows 7
-2. Footprint and 
