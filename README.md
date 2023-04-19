@@ -1,4 +1,4 @@
-# `MCSE610L`: Penetration Testing and Vulnerability Assessment
+# Ethical Hacking
 - Course Instructor: `Prof. Anthoniraj Amalanathan`
 
-This repository contains resources and source code for Penetration Testing and Vulnerability Assessment course.
+This repository contains resources and source code for Ethical Hacking.
