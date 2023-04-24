@@ -28,5 +28,15 @@ def verify_login(username, password):
     else:
         return "Unauthorised User"
 
+@app.route("/securelogin/<username>/<password>/<apikey>")
+def secure_login(username, password):
+    if username == "admin" and password == "123456":
+        if apikey == "aBcdDfghiJ3421":
+            return "Welcome to Admin Portal"
+        else:
+            return "Invalid API Key"
+    else:
+        return "Unauthorised User"
+
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=8080, debug=True)
