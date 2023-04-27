@@ -1,4 +1,9 @@
 from flask import Flask, render_template, request
+'''
+Author: Anthoniraj Amalanathan
+Date Last Modified: 27-Apr-2023
+Description: Flask App for Demonstrating the XSS Attack
+'''
 
 app = Flask(__name__)
 
