@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note Taking App</title>
+</head>
+<body>
+    <h3>Please login to continue</h3>
+    <br>
+    <form action="" method="post">
+        <input type="text" placeholder="Username" name="username">
+        <input type="password" placeholder="Password" name="password">
+        
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+        <button type="submit">Login</button>
+
+    </form>
+    {% if error %}
+        <strong>Error:</strong> {{ error }}
+    {% endif %}   
+</body>
+</html>

@@ -7,3 +7,8 @@ This repository contains the following resources for Ethical Hacking and should 
 - Web Pen Testing
 - Database Pen Testing
 - Vulnerability Analysis
+
+## CSRF Attack
+
+## SQL Injection
+- Injection Script ' OR '1'='1';--
