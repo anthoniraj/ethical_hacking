@@ -11,4 +11,8 @@ This repository contains the following resources for Ethical Hacking and should 
 ## CSRF Attack
 
 ## SQL Injection
-- Injection Script ' OR '1'='1';--
+- Run the sql_injection.py script
+- Open the URL in Browser
+- In the login form type the following in place of user name
+    - ' OR '1'='1';--
+- Type any password
